@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: 'monospace','poppins', sans-serif;
+
+}
+body{
+    min-width:500px;
+    min-height:300px;
+    border-radius: 50px;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#heading{
+
+    text-align: center;
+    padding :15px;
+    font-size: 20px ;
+    color: white;
+    font-family: monospace ;
+}
+#container{
+    padding :15px;
+    display: flex;
+    justify-content: space-between ;
+    align-items:center;
+}
+button{
+    background-color: green;
+    padding :8px;
+    color: white;
+    border-radius: 30px;
+    font-family: monospace ;
+}
+
+ #result {
+        margin-top: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        min-height: 150px;
+        max-height: 400px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        line-height: 1.5;
+        color: lime;
+        font-family: monospace ;
+      }
