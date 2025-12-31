@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: 'monospace','poppins', sans-serif;
-
+    font-family: 'monospace';
+    color: lime;
 }
 body{
     min-width:500px;
@@ -13,18 +13,20 @@ body{
     background-size: cover;
     
 }
-#heading{
 
+h1{
     text-align: center;
     padding :15px;
     font-size: 20px ;
     color: white;
     font-family: monospace ;
 }
-#container{
+.form-group{
     padding :15px;
+    font-family: monospace ;
+    gap: 100px;
     display: flex;
-    justify-content: space-between ;
+    justify-content: center ;
     align-items:center;
 }
 button{
@@ -32,19 +34,19 @@ button{
     padding :8px;
     color: white;
     border-radius: 30px;
-    font-family: monospace ;
+    font-family: monospace ;    
 }
-
- #result {
-        margin-top: 15px;
-        padding: 15px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        min-height: 150px;
-        max-height: 400px;
-        overflow-y: auto;
-        white-space: pre-wrap;
-        line-height: 1.5;
-        color: lime;
-        font-family: monospace ;
-      }
+button:hover{
+    background-color: rgb(105, 245, 105);
+}
+p{
+    padding :15px;
+    text-align:center;
+}
+#api-key{
+    padding :8px;
+    border-radius:50px;
+}
+#success{
+    display: none;
+}

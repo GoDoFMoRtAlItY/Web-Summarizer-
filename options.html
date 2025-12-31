@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>API Key</title>
+    <link rel="stylesheet" href="options.css">
 </head>
 <body>
-    <h2>AI Summarizer</h2>
-    <div>
-        <select id="Summary-type">
-            <option value="brief">Brief</option>
-            <option value="detailed">Detailed</option>
-            <option value="bullets">Buleets Points</option>
-        </select>
-         <button id="Summarize">Summarize</button>
-         <button id="copy-btn">Copy</button>
+    <div class="boda">
+        <h1>AI Summarizer Settings</h1>
+        <div class="form-group">
+            <label for="api-key">Gemini API Key : </label>
+            <input type="text" id="api-key" placeholder="Enter Gemini API Key" />
+        </div>
+        <button id="save">Save Settings</button>
+        <p id="success" class="suc-msg">Settings Saved Successfully!</p>
+        <script src="options.js"></script>
     </div>
-   
-    <pre id="result">Select a type and click Summarize...</pre>
-    <script src="popup.js"></script>
 </body>
 </html>
